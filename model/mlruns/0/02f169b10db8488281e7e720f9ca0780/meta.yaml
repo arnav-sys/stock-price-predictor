@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/akhil/Desktop/stock-market-analysis/model/mlruns/0/02f169b10db8488281e7e720f9ca0780/artifacts
+end_time: 1641900692877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 02f169b10db8488281e7e720f9ca0780
+run_uuid: 02f169b10db8488281e7e720f9ca0780
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641900692828
+status: 4
+tags: []
+user_id: akhil
