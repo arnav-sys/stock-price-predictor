@@ -14,10 +14,4 @@ aws_secret_access_key="xhgkawW6prSJ/Ul3IEA+uW8tUxaYkARK5S5ilUUc"
 
 s3 = session.resource('s3')
 
-def download_dataset(files):
-    for file in files:
-        s3.Bucket('aws-sam-cli-managed-default-samclisourcebucket-xq86jy30rfwb').download_file(files,files)
-
-
-file_names = ["NIFTY50_all.csv"]
-download_dataset(file_names)
+s3.Bucket('stockmarket4').download_file("TATASTEEL.csv","TATASTEEL.csv")
