@@ -7,7 +7,6 @@ Created on Tue Jan 11 16:18:09 2022
 
 import pandas as pd
 from preprocess_data import process_data
-import joblib
 import mlflow
 from sklearn.model_selection import train_test_split
 
@@ -58,5 +57,3 @@ with mlflow.start_run():
     mlflow.log_artifact(local_path = './final_data.csv')
 # Logging training code
     mlflow.log_artifact(local_path = './model.py')
-    
-    joblib.dump(model, "model.sav")
