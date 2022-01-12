@@ -17,7 +17,7 @@ import plotly.express as px
 import joblib
 
 username = 'arnav-sys' # your username
-api_key = 'fZDe8bg5zKytkXiBs0gS' # your api key - go to profile > settings > regenerate key
+api_key = 'fZDe8bg5zKytkXiBs0gS' # your api key 
 chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
 
 model = joblib.load("./model.sav")
