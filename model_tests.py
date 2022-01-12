@@ -20,9 +20,9 @@ from sklearn.linear_model import LinearRegression
 
 
 # Load model as a Spark UDF.
-model = joblib.load("model.sav")
+model = joblib.load("./model/model.sav")
 
-df = pd.read_csv("final_data.csv")
+df = pd.read_csv("./model/final_data.csv")
 print(df.info())
 #splitting dataset into train, test and validate
 
