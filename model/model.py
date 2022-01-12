@@ -46,6 +46,9 @@ with mlflow.start_run():
     
     predictions = model.predict(X_test)
     
+    print(predictions)
+    print(y_test)
+    
     mse = mean_squared_error(y_test, predictions)
     r2 = r2_score(y_test, predictions)
     
