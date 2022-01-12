@@ -13,7 +13,7 @@ Created on Sat Jan  8 18:05:15 2022
 
 import joblib
 import pandas as pd
-from preprocess_data import process_data
+from model/preprocess_data import process_data
 from sklearn.model_selection import train_test_split
 import numpy as np
 from sklearn.linear_model import LinearRegression
