@@ -32,4 +32,4 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest model/tests_model.py
+        pytest model/model_tests.py
