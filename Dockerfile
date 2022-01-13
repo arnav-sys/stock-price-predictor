@@ -11,6 +11,7 @@ WORKDIR /app
 COPY model .
 
 # Install any dependencies
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Specify the command to run on container start
