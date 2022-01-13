@@ -11,6 +11,7 @@ WORKDIR /app
 COPY model .
 
 # Install any dependencies
+RUN apk add --no-cache python3-dev openssl-dev libffi-dev gcc && pip3 install --upgrade pip
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
