@@ -8,7 +8,7 @@ EXPOSE 5000/tcp
 WORKDIR /app
 
 # Copy the dependencies file to the working directory
-COPY model
+COPY model .
 
 # Install any dependencies
 RUN pip install -r model/requirements.txt
