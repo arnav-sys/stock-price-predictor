@@ -1,19 +1,14 @@
-# Set base image (host OS)
-FROM python:3.8-alpine
 
-# By default, listen on port 5000
-EXPOSE 5000/tcp
+FROM python:3.7-slim
 
-# Set the working directory in the container
-WORKDIR /app
+RUN apt-get update
 
-# Copy the dependencies file to the working directory
-COPY model .
+#copy files
+COPY . ./
 
-# Install any dependencies
-RUN apk add --no-cache python3-dev openssl-dev libffi-dev gcc && pip3 install --upgrade pip
+# Install dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Specify the command to run on container start
+# Run the streamlit on container startup
 CMD [ "python", "model/api.py" ]
