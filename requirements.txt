@@ -3,3 +3,4 @@ pandas
 mlflow
 numpy
 joblib
+flask
