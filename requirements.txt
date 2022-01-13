@@ -4,3 +4,5 @@ mlflow
 numpy
 joblib
 flask
+plotly
+chart_studio
