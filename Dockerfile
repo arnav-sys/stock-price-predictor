@@ -11,7 +11,7 @@ WORKDIR /app
 COPY model .
 
 # Install any dependencies
-RUN pip install -r model/requirements.txt
+RUN pip install -r ./model/requirements.txt
 
 # Specify the command to run on container start
 CMD [ "python", "model/api.py" ]
