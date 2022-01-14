@@ -8,12 +8,7 @@ Created on Wed Jan 12 11:00:20 2022
 from flask import Flask, jsonify, request
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 import pandas as pd
-from data_source import downloadfile
 import joblib
-
-username = 'arnav-sys' # your username
-api_key = 'fZDe8bg5zKytkXiBs0gS' # your api key 
-chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
 
 model = joblib.load("./model.sav")
 
