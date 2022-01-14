@@ -7,13 +7,8 @@ Created on Wed Jan 12 11:00:20 2022
 
 from flask import Flask, jsonify, request
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-import chart_studio
-import chart_studio.plotly as py
 import pandas as pd
 from data_source import downloadfile
-import chart_studio.tools as tls
-import plotly.graph_objects as go
-import plotly.express as px
 import joblib
 
 username = 'arnav-sys' # your username
