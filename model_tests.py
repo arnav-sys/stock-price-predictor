@@ -5,11 +5,6 @@ Created on Wed Jan 12 12:57:57 2022
 @author: akhil
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  8 18:05:15 2022
-@author: akhil
-"""
 
 import joblib
 import pandas as pd
