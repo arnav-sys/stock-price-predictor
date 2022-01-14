@@ -2,7 +2,6 @@
 """
 Created on Wed Jan 12 12:57:57 2022
 
-@author: akhil
 """
 
 
