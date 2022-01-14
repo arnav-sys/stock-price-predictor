@@ -28,7 +28,3 @@ jobs:
         pip install mlflow
         pip install joblib
         pip install numpy
-
-    - name: Test with pytest
-      run: |
-        pytest model_tests.py
