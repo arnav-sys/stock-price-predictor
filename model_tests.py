@@ -19,7 +19,7 @@ def process_data(df):
     scaler = MinMaxScaler()
     encoder = OrdinalEncoder()
     
-    data2 = pd.read_csv("./model/data/NIFTY50_all.csv")
+    data2 = pd.read_csv("./model/TATASTEEL.csv")
     
     data2["Year"] = data2["Date"].apply(lambda x: int(x[0:4]))
     data2["Month"] = data2["Date"].apply(lambda x: int(x[5:7]))
