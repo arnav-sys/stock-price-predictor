@@ -6,3 +6,4 @@ joblib
 flask
 plotly
 chart_studio
+boto3
