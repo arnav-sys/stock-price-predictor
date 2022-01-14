@@ -2,3 +2,4 @@ mlflow
 sklearn
 pandas
 numpy
+gunicorn
